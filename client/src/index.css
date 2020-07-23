@@ -75,3 +75,38 @@ body {
   color: red;
   text-align: center;
 }
+
+.update-button {
+  position: absolute;
+  top: 80px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-h2 {
+  align-self: center;
+}
+.delete-button {
+  position: absolute;
+  top: 135px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 5px;
+}
